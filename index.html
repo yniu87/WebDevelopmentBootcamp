@@ -4,10 +4,42 @@
         <title>
             First Website
         </title>
+        <style>
+
+    .photo-holder {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
+
+            #photo-1{
+                background-image: url(headset.jpeg);
+            }
+
+            #photo-2{
+                background-image: url(headset.jpeg);
+            }
+
+            #photo-3{
+                background-image: url(headset.jpeg);
+            }
+            .photo{
+                height: 400px;
+                background-size: cover;
+                background-position: 50% 50%; 
+            }
+        </style>
     </head>
 
     <body>
         <h1>Friend-o-gram</h1>
-        <p>These are my friends.</p>
+        <p>These are my friends.</p>     
+
+        <div class="photo-holder">
+            <div class="photo" id="photo-1"> Photo 1 here  </div>       
+            <div class="photo" id="photo-2"> Photo 2 here  </div>     
+            <div class="photo" id="photo-3"> Photo 3 here  </div>     
+            <div class="photo" id="photo-4"> Photo 4 here  </div>     
+        </div>
+           
     </body>
 </html>
